@@ -1,6 +1,6 @@
 {
   "appId": "com.studentnoteapp.app",
   "appName": "Student Note App",
-  "webDir": ".",
+  "webDir": "www"
   "bundledWebRuntime": false
 }
