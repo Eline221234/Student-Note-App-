@@ -1,0 +1,8 @@
+{
+  "name": "student-note-app",
+  "version": "1.0.0",
+  "description": "Student Note App",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {}
+}
