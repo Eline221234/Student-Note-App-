@@ -38,6 +38,7 @@ jobs:
           mkdir www
           cp index.html Style.css script.js www/
           npx cap add android
+          echo "configurations.all { resolutionStrategy.force 'org.jetbrains.kotlin:kotlin-stdlib:1.8.22' }" >> android/app/build.gradle
           npx cap sync
           cd android && ./gradlew assembleDebug
 
