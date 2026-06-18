@@ -22,7 +22,7 @@ jobs:
       run: |
         npm install @capacitor/core @capacitor/cli
         npm install @capacitor/android
-        npx cap init "Student Note App" "com.studentnoteapp.app" --web-dir=. 
+        npx cap init "Student Note App" "com.studentnoteapp.app" --web-dir=www 
 
     - name: Set up JDK 17
       uses: actions/setup-java@v4
