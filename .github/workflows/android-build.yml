@@ -35,9 +35,11 @@ jobs:
 
     - name: Add Android Platform and Build APK
       run: |
-        npx cap add android
-        npx cap sync
-        cd android && ./gradlew assembleDebug
+          mkdir www
+          cp index.html Style.css script.js www/
+          npx cap add android
+          npx cap sync
+          cd android && ./gradlew assembleDebug
 
     - name: Upload APK Artifact
       uses: actions/upload-artifact@v4
