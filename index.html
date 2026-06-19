@@ -2,27 +2,25 @@
 <html>
 <head>
     <title>Student Notes App</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Style.css">
 </head>
 <body>
 
-    <h1>Student Notes App</h1>
+    <div class="container">
+        <h1>Student Notes App</h1>
 
-    <input id="title" type="text" placeholder="Enter note title">
+        <input id="title" type="text" placeholder="Enter note title">
+        <br><br>
 
-    <br><br>
+        <textarea id="content" placeholder="Write your note"></textarea>
+        <br><br>
 
-    <textarea id="content" placeholder="Write your note"></textarea>
+        <button id="saveBtn">Save Note</button>
 
-    <br><br>
-
-    <button id="saveBtn">Save Note</button>
-
-    <h2>My Notes</h2>
-
-    <div id="notesContainer"></div>
+        <h2>My Notes</h2>
+        <div id="notesContainer"></div>
+    </div>
 
     <script src="script.js"></script>
-
 </body>
 </html>
